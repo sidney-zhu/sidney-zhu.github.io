@@ -1,0 +1,49 @@
+# Basic
+title: SidU
+subtitle: Learn to learn
+welcome_message: 欢迎来到SidU，一个我记录些许思考的地方
+description: To myself, I trust
+creator: <a href="http://blog.sidneychu.name">sidney</a>
+
+url: "http://blog.sidneychu.name"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: red
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: sidneys-blog
+    # duoshuo: 
+    
+# Social
+social:
+    #weibo: onevcat
+    #github: onevcat
+    #twitter: onevcat
+    #gplus: 107108267983477358170
+    mail: 80plus1.blog@gmail.com
+
+# Google Analytics
+ga:
+    id: UA-38774984-1
+    # host: your_host
